@@ -77,6 +77,7 @@ public:
 
 int main() {
 	int V = 8; // nmber of vertices
+	Graph g(V); 
     g.addEdge(0, 1, 5);
     g.addEdge(0, 4, 8);
     g.addEdge(1, 2, 8);
